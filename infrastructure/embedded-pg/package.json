@@ -1,0 +1,17 @@
+{
+  "name": "mesi-embedded-pg",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Local embedded PostgreSQL for testing the MESI API",
+  "scripts": {
+    "start": "node run.mjs",
+    "stop": "node stop.mjs"
+  },
+  "dependencies": {
+    "embedded-postgres": "17.10.0-beta.17",
+    "pg": "^8.12.0"
+  },
+  "allowScripts": {
+    "@embedded-postgres/windows-x64@17.10.0-beta.17": true
+  }
+}
