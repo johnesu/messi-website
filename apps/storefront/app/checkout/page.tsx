@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { formatMoney } from '@/lib/api';
 import { demoProducts } from '@/lib/demo-data';
 import { getLocalCart, clearLocalCart } from '@/lib/local-cart';
-import type { CartDto } from '@mesi/types';
+import type { CartDto } from '@/lib/types';
 
 const API = process.env.NEXT_PUBLIC_API_URL ?? 'http://localhost:4000/api';
 const KEY = 'mesi_cart_session';

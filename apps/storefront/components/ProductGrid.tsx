@@ -1,4 +1,4 @@
-import type { ProductDto } from '@mesi/types';
+import type { ProductDto } from '@/lib/types';
 import { ProductCard } from './ProductCard';
 import { FadeIn } from './motion';
 

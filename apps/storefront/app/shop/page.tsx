@@ -1,6 +1,6 @@
 import Link from 'next/link';
 import { getProducts } from '@/lib/catalog';
-import type { ProductDto } from '@mesi/types';
+import type { ProductDto } from '@/lib/types';
 import { ProductGrid } from '@/components/ProductGrid';
 import { SearchIcon, ArrowRightIcon } from '@/components/icons';
 

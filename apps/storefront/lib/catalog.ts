@@ -1,5 +1,5 @@
 import { api } from './api';
-import type { ProductDto } from '@mesi/types';
+import type { ProductDto } from '@/lib/types';
 import { demoCategories, demoProducts, demoBlogPosts, demoHome } from './demo-data';
 
 export interface Category {

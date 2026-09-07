@@ -4,7 +4,7 @@ import { useEffect, useState, useCallback } from 'react';
 import Link from 'next/link';
 import { formatMoney } from '@/lib/api';
 import { demoProducts } from '@/lib/demo-data';
-import type { ProductDto } from '@mesi/types';
+import type { ProductDto } from '@/lib/types';
 import { getLocalCart, subscribeLocalCart, type LocalCartItem } from '@/lib/local-cart';
 import { useCart } from '@/components/CartProvider';
 import { CartIcon, ImagePlaceholderIcon, ArrowRightIcon, PlusIcon } from '@/components/icons';

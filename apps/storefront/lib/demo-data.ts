@@ -1,4 +1,4 @@
-import type { ProductDto } from '@mesi/types';
+import type { ProductDto } from '@/lib/types';
 import type { HomePage, Category, BlogPost } from './catalog';
 
 const img = (seed: number, w = 800, h = 800) => `https://picsum.photos/seed/${seed}/${w}/${h}`;

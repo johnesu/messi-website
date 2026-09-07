@@ -2,7 +2,7 @@ import { notFound } from 'next/navigation';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { getCategory, getProducts } from '@/lib/catalog';
-import type { ProductDto } from '@mesi/types';
+import type { ProductDto } from '@/lib/types';
 import { ProductGrid } from '@/components/ProductGrid';
 
 export const dynamic = 'force-dynamic';

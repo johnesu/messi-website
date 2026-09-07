@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import type { ProductDto } from '@mesi/types';
+import type { ProductDto } from '@/lib/types';
 import { formatMoney } from '@/lib/api';
 import { StarIcon, ImagePlaceholderIcon } from './icons';
 import { TiltCard } from './motion';
