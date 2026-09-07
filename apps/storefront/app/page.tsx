@@ -100,7 +100,6 @@ function HeritageSection() {
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="absolute -bottom-10 -right-10 -z-10 h-64 w-64 rounded-2xl border-4 border-accent-500/30" />
             <div className="absolute -left-10 -top-10 -z-10 h-48 w-48 rounded-full bg-brand-500/5 blur-3xl" />
           </div>
         </FadeIn>
